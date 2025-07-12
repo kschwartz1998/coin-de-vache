@@ -1,0 +1,86 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  
+  .events-page {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+  }
+  
+  .foreground {
+    position: absolute;
+    top: 30%; /* adjust up/down as needed */
+    left: -50%; /* shift image to the left */
+    width: 150%; /* scale image wider than container */
+    object-fit: cover;
+    z-index: 2;
+  }
+
+  @media screen and (min-width: 1024px) {
+    .foreground {
+      top: 0%;      /* moves it up */
+      width: 110%;   /* makes it smaller */
+      left: -10%;    /* adjust left if needed */
+    }
+  }
+  
+  .title {
+    position: absolute;
+    top: 1%;
+    left: 75%;
+    transform: translateX(-50%);
+    width: 140%;
+    height: auto;
+    z-index: 3;
+  }
+
+  @media screen and (min-width: 1024px) {
+    .title {
+      width: 70%;   /* makes it smaller */
+      left: 35%;
+    }
+  }
+  
+  .blurb-events {
+    position: absolute;
+    left: 5%;
+    top: 17%;;
+    width: 93%;
+    z-index: 4;
+  }
+
+  @media screen and (min-width: 1024px) {
+    .blurb-events {
+          display: none;
+    }}
+
+  .desktop-events {
+    display: none;
+  }
+
+  @media screen and (min-width: 1024px) {
+  .desktop-events {
+        display: block;
+        position: absolute;
+        top: 22%;
+        left: 3%;
+        width: 70%;
+        color: #6e5a4a;
+        font-size: 2.0rem;
+        line-height: 1.6;
+        z-index: 4;
+  }}
