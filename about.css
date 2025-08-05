@@ -73,7 +73,7 @@ body {
   @media (min-width: 1024px) {
     .blurb-container {
         position: absolute;
-        top:22.5%;
+        top:20.5%;
         width: 87%;
         left: 7.5%;
         color: #59473b;
