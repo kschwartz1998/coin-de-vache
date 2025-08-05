@@ -21,7 +21,7 @@ html, body {
   top: 50%;
   left: 50%;
   width: auto;
-  height: 140vh; /* Zoom it in */
+  height: 150vh; /* Zoom it in */
   transform: translate(-50%, -65%); /* Center it with vertical offset */
   object-fit: cover;
   z-index: 1;
