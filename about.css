@@ -1,0 +1,168 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fff7e8; /* Light cream */
+    font-family: 'Cabinet Grotesk', sans-serif;
+  }
+
+
+  
+
+  .about-container {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  .about-image {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+
+
+
+
+  
+  .about-text {
+    position: absolute;
+    top: 1%;
+    left: 71%;
+    color: #59473b;
+    text-align: center;
+  }
+  
+  .about-text h1 {
+    font-size: 2.7rem;
+    font-weight: 200;
+    margin: 0;
+  }
+
+  @media (min-width: 1024px) {
+    .about-text {
+        position: absolute;
+        top:1.5%;
+        width: 87%;
+        left: 40.5%;
+        color: #59473b;
+      }
+    
+      .about-text h1 {
+        font-size: 8.5rem;
+        font-weight: 200;
+      }
+    }
+
+
+
+
+  .blurb-container {
+    position: absolute;
+    top: 11%;
+    width: 87%;
+    left: 7%;
+  }
+
+  .blurb {
+    color: #9fc3f2;
+    font-size: 1rem;
+    font-weight: 300;
+  }
+
+  @media (min-width: 1024px) {
+    .blurb-container {
+        position: absolute;
+        top:19.5%;
+        width: 87%;
+        left: 7.5%;
+        color: #59473b;
+      }
+    
+      .blurb {
+        font-size: 3.2rem;
+        font-weight: 200;
+      }
+    }
+
+
+
+
+
+
+
+.values-container{
+  position: absolute;
+  top: 20%;
+  width: 87%;
+  left: -22%;
+}
+.values {
+  color: #8c7764;
+    font-size: 1rem;
+    font-weight: 300;
+    transform: rotate(-90deg);
+}
+@media (min-width: 1024px) {
+  .values-container {
+      position: absolute;
+      top:37.7%;
+      width: 87%;
+      left: -22%;
+      color: #59473b;
+    }
+  
+    .values {
+      font-size: 3.3rem;
+      font-weight: 200;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+  .knot-container,
+  .cali-container,
+  .weight-container {
+    position: relative;
+    height: 400px;
+  
+  }
+
+  .knot {
+    position: absolute;
+    width: 20%;
+    top: -45%;
+    left: 77%;
+  }
+  .cali {
+    position: absolute;
+    width: 14%;
+    top: -133%;
+    left: 81%;
+  }
+  .weight {
+    position: absolute;
+    width: 20%;
+    left: 78%;
+    top: -222%;
+  }
+
+  @media (min-width: 1024px) {
+    .knot {
+      top: -145%;
+    }
+    .cali {
+    top: -210%;
+    }
+    .weight {
+      top: -270%;
+    }
+    }
