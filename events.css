@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fff7e8; /* Light cream */
+    font-family: 'Cabinet Grotesk', sans-serif;
+  }
+
+
+  
+  .events-container {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  .events-image {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  
+
+  .g-container {
+    position: absolute;
+    top:10.5%;
+    width: 87%;
+    left: 1.5%;
+    color: #59473b;
+  }
+
+  .greeting {
+    font-size: 1.8rem;
+    font-weight: 200;
+  }
+
+  @media (min-width: 1024px) {
+    .g-container {
+        position: absolute;
+        top:12.5%;
+        width: 87%;
+        left: 2.5%;
+        color: #59473b;
+      }
+    
+      .greeting {
+        font-size: 5.5rem;
+        font-weight: 200;
+      }
+    }
+
+
+
+
+
+  .blurb-container {
+    position: absolute;
+    top:39.5%;
+    width: 35%;
+    left: 7.5%;
+    color: #59473b;
+  }
+
+  .blurb {
+    font-size: .85rem;
+    font-weight: 200;
+  }
+  
+  @media (min-width: 1024px) {
+    .blurb-container {
+    position: absolute;
+    top:126.5%;
+    width: 35%;
+    left: 7%;
+    color: #59473b;
+      }
+    
+    .blurb {
+    font-size: 2.7rem;
+    font-weight: 200;
+      }
+    }
