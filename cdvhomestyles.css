@@ -57,7 +57,7 @@ html, body {
 .word-de {
   position: absolute;
   top: 12%;
-  left: -10%;
+  left: 0%;
   max-width: 140%;
   height: auto;
   z-index: 2;
@@ -73,7 +73,7 @@ html, body {
 
 .word-vache {
   position: absolute;
-  bottom: 30%;
+  bottom: 20%;
   left: -25%;
   max-width: 125%;
   height: auto;
