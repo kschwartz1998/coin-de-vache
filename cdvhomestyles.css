@@ -57,7 +57,7 @@ html, body {
 .word-de {
   position: absolute;
   top: 12%;
-  left: 0%;
+  left: -20%;
   max-width: 140%;
   height: auto;
   z-index: 2;
